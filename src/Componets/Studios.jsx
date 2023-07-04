@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './Images/neon.jpg';
+import image from '../assets/Images/neon.jpg';
 
 function Studios() {
   return (

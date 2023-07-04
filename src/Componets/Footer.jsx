@@ -1,6 +1,6 @@
 import React from "react";
-import image from "./Images/hero.jpg";
-import image1 from "./Images/footer.jpg";
+import image from "../assets/Images/hero.jpg";
+import image1 from "../assets/Images/footer.jpg";
 import {BsFacebook,BsInstagram,BsTwitter} from "react-icons/bs"
 import {AiFillTwitterCircle} from "react-icons/ai"
 
@@ -37,7 +37,7 @@ function Footer() {
       </div>
       <div>
       <div
-          className="hidden lg:flex relative  items-center justify-center h-96"
+          className="hidden lg:flex md:flex relative  items-center justify-center h-96"
           style={{ backgroundImage: `url(${image1})`, backgroundSize: "cover" }}
         >
         </div>

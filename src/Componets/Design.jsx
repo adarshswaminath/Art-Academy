@@ -1,6 +1,6 @@
 import React from "react";
-import image from "./Images/street.jpg";
-import image2 from "./Images/design.jpg";
+import image from "../assets/Images/street.jpg";
+import image2 from "../assets/Images/design.jpg";
 
 
 function Design() {
