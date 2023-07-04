@@ -16,8 +16,10 @@ function Studios() {
          </div>
         </div>
       </div>
-      <div className="w-full lg:w-2/3">
-        <img src={image} alt="" className="w-full" />
+      <div className="w-full lg:w-2/3 h-96"
+      style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}
+      >
+        <h2 className="text-6xl px-3 py-72 font-semibold text-right text-white">03</h2>
       </div>
     </div>
   );
